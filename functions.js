@@ -16,13 +16,16 @@ bestPets();
 
 //Challenge 2
 // put this code block into a function, add a return statement, and call the function
-
+function greatPet() {
 let anotherGreatPet = 'bunny';
 let anotherPetName = 'opal';
 let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anotherPetName;
 // return the anotherPetString here
+return anotherPetString;
+}
 
 // call your function here
+greatPet();
 
 
 
@@ -30,6 +33,10 @@ let anotherPetString = 'The best pet is a ' + anotherGreatPet + ' named ' + anot
 // is there another way to write this function so we can use one function for different pets?
 
 
-
-
+function petSelect() {
+  bestPets();
+  greatPets();
+}
+//call
+petSelect()
 
